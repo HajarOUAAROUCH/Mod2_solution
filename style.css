@@ -1,0 +1,107 @@
+
+#titre {
+
+	color: #008080;
+	font-size: 80px; 
+	font-weight: bold;
+	text-align: center;
+
+
+	
+}
+
+#prin_img {
+	margin-top: 20px;
+
+}
+
+.ident_div2 {
+
+	color: black;
+	font-size: 27px;
+
+	margin: 80px;
+	margin-bottom: 40px;
+	margin-left: 100px;
+	text-align: left;
+	font-family: sans-serif;
+	font-weight: normal;
+	text-transform: unset;
+	clear: left;	/*nothing should be in left of it*/
+}
+
+#cam_types {
+
+	color: black;
+	font-size: 27px;
+	margin: 80px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 80px;
+	text-align: left;
+	font-family: sans-serif;
+	font-weight: normal;
+
+}
+
+ .nom {
+
+ 	color: #0000b3;
+ 	font-size: 27px;
+ 	margin: 80px;
+ 	margin-bottom: 10px;
+ 	margin-top: 5px;
+ 	margin-right: 400px;		
+ 	border: solid 2px orange;
+	padding: 5px;
+	padding-left: 80px;
+	font-family: monospace;
+ }
+
+ .im {
+ 	margin: 370px;
+ 	margin-top: 20px;
+ 	margin-bottom: 30px;
+
+ }
+
+ ul li {
+ 	list-style: square;
+ 	font-size: 25px;
+ 	margin: 20px;
+ }
+
+header li {
+	font-size: 30px;
+	list-style: none;
+	float: left;
+	margin: 60px;
+
+} 
+
+
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	background-color: #FED9FC;
+}
+
+a:hover, a:active {
+	color: #F1C40F;
+	background-color: green;
+	text-align: center;
+}
+
+header li:nth-child(3) { /* the 3rd element in the list of header*/
+	font-size: 27px;
+}
+#cam_types li:nth-child(5):hover {	/* the 5th element*/ 
+	background-color: #2DF2F5;		/*in cam_types list*/
+	cursor: pointer;				/*with hover caract*/
+	display: block;
+	width: 300px;
+
+}
